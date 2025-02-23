@@ -16,12 +16,12 @@ No external connections are required, as the random number is generated internal
 #include <ch32v00x.h>
 
 void setup() {
-  Serial.begin(115200);             // Initialize Serial Communication at 115200 baud rate
-  randomSeed(analogRead(A0));       // Seed the random number generator using a floating analog pin
+  Serial.begin(115200); rate
+  randomSeed(analogRead(A0)); 
 }
 
 void loop() {
   int randomNumber = random(1, 7);  // Generate a random number between 1 and 6
   Serial.println(randomNumber);     // Print the number to the Serial Monitor
-  delay(1000);                      // Wait for a second before generating the next number
+  delay(1000); 
 }
