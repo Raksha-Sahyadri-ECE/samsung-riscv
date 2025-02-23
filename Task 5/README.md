@@ -1,18 +1,18 @@
-1. Project Name and Overview
+**Project Name and Overview**
 Project Name:
 Random Number Generator Using VSDSQUADRON Mini
 
 Overview:
 This project generates and displays a random number on the Serial Monitor using the VSDSQUADRON Mini board. The random numbers range from 1 to 6, simulating the roll of a dice. 
 
-2. Components Required:
+**Components Required:**
 VSDSQUADRON Mini (CH32) Board
 USB Type-C Cable (for power and data communication)
 
-4. Pinout Diagram:
+**Pinout Diagram:**
 No external connections are required, as the random number is generated internally and displayed on the Serial Monitor.
 
-Code:
+**Code:**
 #include <ch32v00x.h>
 
 void setup() {
